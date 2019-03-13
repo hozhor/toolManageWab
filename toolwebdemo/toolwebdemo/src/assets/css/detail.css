@@ -1,0 +1,266 @@
+.detail{
+	background: #ffffff;
+}
+.detail-header-bg{
+	width:100%;
+	height: 330px;
+	background:#2970FE;
+	background-image: linear-gradient(90deg, #2B93EA 20%,#2970FE 80%);
+}
+.detail-header{
+	width:1200px;
+	height:393px;
+	margin:0 auto;
+	position: relative;
+	top:0;
+	left:0;
+	z-index: 2;
+}
+.tool-pic{
+	width:246px;
+	height:320px;
+	position: absolute;
+	z-index: 2;
+	top:36px;
+}
+.tool-title{
+	position: absolute;
+	z-index: 1;
+	top:52px;
+	left:286px;
+	white-space: nowrap;
+	word-break: keep-all;
+	word-wrap: none;
+	font-size:32px;
+	color:#ffffff;
+}
+.tool-oper{
+	width:320px;
+	height:100px;
+	position: absolute;
+	z-index: 1;
+	top:224px;
+	left:286px;
+}
+.tool-btn{
+	font-size:14px;
+	width:320px;
+	height:36px;
+	line-height: 36px;
+	color:#ffffff;
+	border:0 none;
+}
+.tool-comment{
+	margin-bottom: 10px;
+	background:#549df4;
+	background-image: linear-gradient(90deg, #549df4 20%,#7baefa 80%);
+}
+.tool-download{
+	background:#ffbf69;
+	background-image: linear-gradient(90deg, #ffbf69 20%,#f09124 80%);
+}
+.tool-info{
+	width:300px;
+	position: absolute;
+	z-index: 1;
+	top:149px;
+	left:900px;
+	font-size:14px;
+	color:#ffffff;
+}
+.tool-info-box{
+	padding-bottom:29px;
+	overflow: hidden;
+}
+.tool-info-box-con{
+	padding-top:8px;
+}
+.tool-info-num{
+	font-size:28px;
+	color:#FBCA12;
+	padding-right:30px;
+	float: left;
+}
+.tool-info-star{
+	width:200px;
+	overflow: hidden;
+}
+.tool-info-star-ul li{
+	width:20px;
+	height:20px;
+	float: left;
+	margin:0px 4px 0px 4px;
+	background: url(../img/icon_20_pf.png) no-repeat center center;
+}
+.tool-info-star-ul li.all{
+	background: url(../img/icon_20_xx.png) no-repeat center center;
+}
+.tool-info-star-ul li.half{
+	background: url(../img/icon_20_b.png) no-repeat center center;
+}
+.tool-info-star-text{
+	clear: both;
+	padding:8px 0px 0px 4px;
+	font-size:12px;
+}
+.download-total-num{
+	font-size:28px;
+}
+.detail-tabs-bg{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	overflow: hidden;
+	padding-top:60px;
+	background: #ffffff;
+	border-bottom: 1px solid #ECECEC
+}
+.detail-tabs{
+	width:1200px;
+	margin: 0 auto;
+}
+.detail-tabs .detail-tabs-ul li{
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	float: left;
+	font-size:18px;
+	text-align: center;
+	cursor: pointer;
+}
+.detail-tabs .detail-tabs-ul li.actived{
+	color:#2B93EA;
+	border-bottom: 4px solid #2B93EA;
+	height:36px;
+	line-height: 36px;
+}
+.tool-detail{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left: 0;
+	padding:20px 0px 0px 0px; 
+}
+.tool-detail-tit{
+	font-size:18px;
+	height:28px;
+	line-height: 28px;
+	color:#333333;
+	padding:0px 0px 12px 16px;
+	background: url(../img/bq_20_01.png) no-repeat left 3px;
+}
+.tool-detail-text{
+	width:1100px;
+	color:#666666;
+	font-size:16px;
+	overflow: hidden;
+}
+.comment-oper{
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	right:100px;
+}
+.comment-btn{
+	width:96px;
+	height: 36px;
+	line-height: 36px;
+	color: #ffffff;
+	text-align: center;
+	font-size:14px;
+	border: 0 none;
+	background:#2970FE;
+	background-image: linear-gradient(90deg, #2B93EA 20%,#2970FE 80%);
+}
+.hot-comment{
+	width:100%;
+	overflow: hidden;
+}
+.hot-comment-list{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.hot-comment-line{
+	width:100%;
+	min-height: 160px;
+	overflow: hidden;
+	border-bottom: 1px solid #ECECEC;
+}
+.comment-user-info{
+	width:100%;
+	height: 90px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left:0;
+}
+.comment-user-info .pic{
+	width:48px;
+	height:48px;
+	position: absolute;
+	z-index: 1;
+	top:13px;
+	left:4px;
+}
+.comment-user-info .pic img{
+	width:48px;
+	height:48px;
+}
+.comment-user-info .name{
+	position: absolute;
+	z-index: 1;
+	top:13px;
+	left: 68px;
+	font-size:16px;
+	color:#333333;
+}
+.comment-user-info .other{
+	position: absolute;
+	z-index: 1;
+	top:40px;
+	left: 68px;
+	color:#999999;
+}
+.comment-user-info .other-date{
+	float: left;
+	margin-right:10px;
+	height:22px;
+	line-height: 22px;
+	font-size:14px;
+}
+.comment-user-info .other-star{
+	float: left;
+	width:200px;
+	margin-right:10px;
+}
+.comment-user-info .other-star-ul li{
+	width:20px;
+	height:20px;
+	float: left;
+	margin:0px 4px 0px 4px;
+	background: url(../img/icon_20_pf.png) no-repeat center center;
+}
+.comment-user-info .other-star-ul li.all{
+	background: url(../img/icon_20_xx.png) no-repeat center center;
+}
+.comment-user-info .other-star-ul li.half{
+	background: url(../img/icon_20_b.png) no-repeat center center;
+}
+.comment-user-info .like-num{
+	position: absolute;
+	z-index: 1;
+	top:12px;
+	right:20px;
+	width:120px;
+	height:22px;
+	line-height: 22px;
+	color:#999999;
+	font-size:14px;
+	padding-left:30px;
+	background: url(../img/icon_20_zan.png) no-repeat left center;
+}

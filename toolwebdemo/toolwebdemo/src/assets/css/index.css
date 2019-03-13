@@ -1,0 +1,267 @@
+.header-div{
+	height:119px;
+	width:100%;
+	background: #ffffff;
+}
+.header-top{
+	height:119px;
+	width:1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left: 0;
+}
+.header-logo{
+	float: left;
+	overflow: hidden;
+}
+.header-logo-img{
+	margin-top:22px;
+	width:54px;
+	height:54px;
+	float: left;
+}
+.header-logo-img img{
+	height:54px;
+	width:54px;
+}
+.header-logo-text{
+	font-size:28px;
+	margin-top:29px;
+	margin-left:8px;
+	float: left;
+}
+.header-search-div{
+	height:40px;
+	width:600px;
+	float: left;
+	margin-top:26px;
+	margin-left:60px;
+	border-radius: 2px;
+	border:1px solid #2B93EA;
+}
+.header-search-ipt{
+	width:520px;
+	height:38px;
+	float:left;
+}
+.header-search-ipt input{
+	width:488px;
+	height: 21px;
+	line-height: 21px;
+	font-size:14px;
+	margin:10px 16px 9px 16px;
+	border: 0 none;
+}
+.header-search-btn{
+	with:80px;
+	height:40px;
+	float: left;
+}
+.header-search-btn button{
+	width:80px;
+	height:40px;
+	border:0 none;
+	background: #2B93EA;
+}
+.header-suggest{
+	position: absolute;
+	z-index: 1;
+	top: 76px;
+	right: 0px;
+	color:#666666;
+	font-size:14px;
+}
+.header-words{
+	position: absolute;
+	z-index: 1;
+	top:76px;
+	left:419px;
+}
+.header-words-ul li{
+	float: left;
+	font-size:14px;
+	color:#A6A7C7;
+	margin-right:20px;
+}
+.index-container{
+	width:1200px;
+	padding-bottom: 25px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container-line{
+	width:100%;
+	margin-top:20px;
+}
+.container-left{
+	width:940px;
+	float: left;
+	overflow: hidden;
+	margin-right:20px;
+	position: relative;
+	z-index: 1;
+	top:0;
+	right:0;
+}
+.container-right{
+	width:240px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	top:0;
+	right:0;
+}
+.index-login{
+	width:240px;
+	height:248px;
+	background: #ffffff;
+}
+.login-img{
+	width:40px;
+	height:40px;
+	margin: 0 auto;
+	padding-top:40px;
+}
+.login-text{
+	font-size:14px;
+	text-align: center;
+	color: #333333;
+	padding-top:12px;
+}
+.login-reg-btn{
+	width:94px;
+	height:34px;
+	margin: 0 auto;
+	line-height: 34px;
+	text-align: center;
+	border: 1px solid #2B93EA;
+	margin-top:12px;
+	font-size: 14px;
+	color:#2B93EA;
+}
+.login-btn{
+	height:34px;
+	width:96px;
+	margin: 0 auto;
+	line-height: 34px;
+	text-align: center;
+	font-size:14px;
+	color: #ffffff;
+	background:#2970FE;
+	background-image: linear-gradient(90deg, #2B93EA 20%,#2970FE 80%);
+	margin-top:12px;
+}
+.con-box{
+	float: left;
+}
+.con-box1{
+	margin-right:20px;
+}
+.con-box3{
+	margin-left:20px;
+}
+.index-notice{
+	background: #ffffff;
+	height:220px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left: 0;
+}
+.index-notice-tit{
+	height:24px;
+	line-height: 24px;
+	color: #333333;
+	font-size:16px;
+	padding:12px 0px 0px 22px;
+	background: url(../img/bq_20_01.png) no-repeat 8px 12px;
+}
+.index-notice-div{
+	padding:10px 20px 0px 20px;
+}
+.index-notice-ul li{
+	height: 28px;
+	line-height: 28px;
+	color: #666666;
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+}
+.container-box{
+	width:590px;
+	float:Left;
+	background: #ffffff;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.container-box-tit{
+	width:590px;
+	height: 60px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left:0;
+}
+.container-box-tit .tit{
+	color:##333333;
+	font-size: 20px;
+	height:50px;
+	line-height: 50px;
+	padding-left: 60px;
+	background: url(../img/icon_32_sygj.png) no-repeat 20px 10px;
+}
+.tit-tag{
+	position: absolute;
+	z-index: 1;
+	top:18px;
+	left:175px;
+}
+.tit-tag-ul li{
+	height:18px;
+	line-height: 18px;
+	padding:0px 5px 0px 5px;
+	font-size:12px;
+	overflow: hidden;
+	border:1px solid #BABAE3;
+	border-radius: 2px;
+	float: left;
+	color: #BABAE3;
+	margin-right:8px;
+}
+.tit-more{
+	position: absolute;
+	z-index: 1;
+	top:20px;
+	right:5px;
+	width: 50px;
+	background: url(../img/icon_32_jr.png) no-repeat right center;
+	font-size: 14px;
+	color: #666666;
+}
+.container-box-list{
+	margin:0 10px;
+}
+.container-box-list-ul li{
+	width:170px;
+	overflow: hidden;
+	float: left;
+	margin-right:10px;
+	margin-left: 10px;
+}
+.container-box-list-ul li .pic{
+	width:170px;
+	height:120px;
+}
+.container-box-list-ul li .tit{
+	width:170px;
+	height:40px;
+	padding-top:4px;
+	color: #333333;
+	font-size:14px;
+}
+.container-box-right{
+	margin:0px 0px 0px 20px;
+}
